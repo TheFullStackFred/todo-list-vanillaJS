@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: coral;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper h1 {
+  padding-top: 10px;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.add-todo-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.add-todo-section .todo-input {
+  margin-left: 100px;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 5px;
+  outline: none;
+  border: none;
+}
+
+.add-todo-section .add-todo-button,
+.delete-todo-button {
+  width: 100px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+}
