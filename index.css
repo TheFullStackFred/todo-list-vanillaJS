@@ -8,6 +8,10 @@ body {
   background-color: coral;
 }
 
+ul {
+  list-style: none;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -19,6 +23,17 @@ body {
   padding-top: 10px;
   font-size: 35px;
   text-decoration: underline;
+}
+
+.wrapper .todo-list li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 400px;
+  height: 50px;
+  background-color: white;
+  margin: 10px 0;
+  border-radius: 10px;
 }
 
 .add-todo-section {
